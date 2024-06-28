@@ -23,7 +23,7 @@ jobs:
           context: ./ 
           push: true
           dockerfile: ./Dockerfile
-          tags: marcellygarc/wa_funcci_Lab03_02:latest
+          tags: marcellygarc/wa_gc_lab03_02:latest
   deploy:
     runs-on: ubuntu-latest
     steps:
