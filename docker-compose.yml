@@ -1,0 +1,10 @@
+version: '3'
+services:
+  app:
+    image: <seu usuario do dockerhub>/webacademy:latest
+    container_name: webacademydemo
+    restart: always
+    ports:
+      - "80:3000"
+    environment:
+      NODE_ENV: production
