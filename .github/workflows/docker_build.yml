@@ -23,7 +23,6 @@ jobs:
           context: ./ 
           push: true
           dockerfile: ./Dockerfile
-          tags: marcellygarc/gc-githubactions:latest
   deploy:
     runs-on: ubuntu-latest
     steps:
